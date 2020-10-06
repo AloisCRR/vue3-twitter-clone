@@ -1,3 +1,5 @@
+const tinycolor = require("tinycolor2");
+
 module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
@@ -131,6 +133,12 @@ module.exports = {
         700: "#b83280",
         800: "#97266d",
         900: "#702459",
+      },
+      twitter: {
+        normal: "#1da1f2",
+        hover: tinycolor("#1da1f2").setAlpha(0.1).toRgbString(),
+        buttonhover: "#1a91da",
+        background: "#192734",
       },
     },
     spacing: {
