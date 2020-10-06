@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div class="bg-green-700 row-span-2">Trending</div>
 </template>
 
 <script lang="ts">

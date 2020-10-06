@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div class="bg-purple-600 row-span-1">Knows</div>
 </template>
 
 <script lang="ts">
