@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-red-600 flex p-2">
+  <div class="bg-red-600 flex p-1">
     <button type="button">Flecha atras</button>
     <div>
       <strong class="block">Usuario</strong>

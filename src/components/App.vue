@@ -17,6 +17,6 @@ export default defineComponent({
 
 <style lang="scss">
 #app {
-  background-color: #192734;
+  background-color: #15202b;
 }
 </style>
