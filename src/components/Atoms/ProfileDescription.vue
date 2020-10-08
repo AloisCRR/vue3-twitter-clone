@@ -1,10 +1,26 @@
 <template>
-  <div class="p-3 text-white">
+  <div class="px-3 pb-3 text-twitter-textGray">
     <div>
-      <div class="font-bold">Usuario</div>
-      <small>@AloisCRR</small>
+      <div class="font-bold text-white">Usuario</div>
+      <div>@AloisCRR</div>
     </div>
     <div class="my-1">Emoji</div>
+    <div>
+      <div class="flex">
+        <div class="mr-3">Panama</div>
+        <div>Fecha de nacimiento: 10 de junio de 1999</div>
+      </div>
+      <div class="flex mt-2">
+        <div class="mr-4">
+          <strong class="mr-1 text-white">148</strong>
+          <span>Siguiendo</span>
+        </div>
+        <div>
+          <strong class="mr-1 text-white">68</strong>
+          <span>Seguidores</span>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

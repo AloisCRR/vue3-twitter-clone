@@ -5,12 +5,14 @@
     <SectionName />
     <ProfileBanner />
     <ProfileInfo />
+    <TabList />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 import SectionName from "@/components/Atoms/SectionName.vue";
+import TabList from "@/components/Molecules/TabList.vue";
 import ProfileBanner from "@/components/Atoms/ProfileBanner.vue";
 import ProfileInfo from "@/components/Molecules/ProfileInfo.vue";
 
@@ -21,6 +23,7 @@ export default defineComponent({
     SectionName,
     ProfileBanner,
     ProfileInfo,
+    TabList,
   },
 });
 </script>
