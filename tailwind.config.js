@@ -139,6 +139,7 @@ module.exports = {
         hover: tinycolor("#1da1f2").setAlpha(0.1).toRgbString(),
         buttonhover: "#1a91da",
         background: "#192734",
+        textGray: "#8899a6",
       },
     },
     spacing: {

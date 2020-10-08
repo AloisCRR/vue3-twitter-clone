@@ -3,7 +3,10 @@
     <NavButton
       v-for="(options, index) in state.nav"
       :key="index"
+      @click="selected(index)"
       :text="options"
+      :active="state.selected"
+      :idx="index"
     />
     <TweetButton />
   </div>
@@ -33,10 +36,16 @@ export default defineComponent({
         "Perfil",
         "Más opciones",
       ],
+      selected: 0,
     });
+
+    function selected(idx: number) {
+      state.selected = idx;
+    }
 
     return {
       state,
+      selected,
     };
   },
 });

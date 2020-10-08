@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-red-600 flex p-1">
+  <div class="flex p-1 text-twitter-textGray">
     <button type="button">Flecha atras</button>
     <div>
-      <strong class="block">Usuario</strong>
+      <strong class="block text-white mb-0">Usuario</strong>
       <small>30 Tweets</small>
     </div>
   </div>
