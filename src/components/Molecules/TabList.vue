@@ -1,6 +1,6 @@
 <template>
   <div class="flex">
-    <SectionButton
+    <TabButton
       v-for="(section, index) in state.sec"
       :key="index"
       @click="selected(index)"
@@ -13,13 +13,13 @@
 
 <script lang="ts">
 import { defineComponent, reactive } from "vue";
-import SectionButton from "@/components/Atoms/TabButton.vue";
+import TabButton from "@/components/Atoms/TabButton.vue";
 
 export default defineComponent({
   name: "TabList",
   props: {},
   components: {
-    SectionButton,
+    TabButton,
   },
   setup() {
     const state = reactive({

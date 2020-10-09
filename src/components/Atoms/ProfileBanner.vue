@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-700 h-48"></div>
+  <div class="banner bg-gray-700"></div>
 </template>
 
 <script lang="ts">
@@ -12,4 +12,8 @@ export default defineComponent({
 });
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.banner {
+  min-height: 12rem;
+}
+</style>
