@@ -1,5 +1,5 @@
 dependencies:
-  '@vue/cli': 4.5.6
+  '@vue/cli': 4.5.7
   core-js: 3.6.5
   tinycolor2: 1.4.2
   vue: 3.0.0
@@ -8,21 +8,21 @@ dependencies:
 devDependencies:
   '@typescript-eslint/eslint-plugin': 4.4.0_a71b0516f86a95383173f79e74386c73
   '@typescript-eslint/parser': 4.4.0_eslint@7.10.0+typescript@4.0.3
-  '@vue/cli-plugin-babel': 4.5.6_@vue+cli-service@4.5.6+vue@3.0.0
-  '@vue/cli-plugin-eslint': 4.5.6_d9ca8c8bbd6c91a06c61e2df516b60d6
-  '@vue/cli-plugin-router': 4.5.6_@vue+cli-service@4.5.6
-  '@vue/cli-plugin-typescript': 4.5.6_3a49ca03fec2aaccb8c0f376448f5b3f
-  '@vue/cli-plugin-vuex': 4.5.6_@vue+cli-service@4.5.6
-  '@vue/cli-service': 4.5.6_c577a15ecb799c91b63535f4c489e184
+  '@vue/cli-plugin-babel': 4.5.7_@vue+cli-service@4.5.7+vue@3.0.0
+  '@vue/cli-plugin-eslint': 4.5.7_32ec9d12de5f8dc004b5352f919e97ea
+  '@vue/cli-plugin-router': 4.5.7_@vue+cli-service@4.5.7
+  '@vue/cli-plugin-typescript': 4.5.7_4e32fbe9fb9c7abce216d0e0fc2ae631
+  '@vue/cli-plugin-vuex': 4.5.7_@vue+cli-service@4.5.7
+  '@vue/cli-service': 4.5.7_f19ef3ebfa26256be901d7640e05d2e3
   '@vue/compiler-sfc': 3.0.0_vue@3.0.0
   '@vue/eslint-config-prettier': 6.0.0_5202110b2c58f62bee624757010539ce
-  '@vue/eslint-config-typescript': 5.1.0_20954f72b42186ce2bd3d784bacce6f8
+  '@vue/eslint-config-typescript': 7.0.0_20954f72b42186ce2bd3d784bacce6f8
   eslint: 7.10.0
   eslint-plugin-prettier: 3.1.4_eslint@7.10.0+prettier@2.1.2
   eslint-plugin-vue: 7.0.1_eslint@7.10.0
   prettier: 2.1.2
-  sass: 1.26.12
-  sass-loader: 10.0.2_sass@1.26.12
+  sass: 1.27.0
+  sass-loader: 10.0.3_sass@1.27.0
   typescript: 4.0.3
   vue-cli-plugin-tailwind: 1.5.0
 lockfileVersion: 5.1
@@ -1450,7 +1450,7 @@ packages:
   /@types/connect-history-api-fallback/1.3.3:
     dependencies:
       '@types/express-serve-static-core': 4.17.13
-      '@types/node': 14.11.4
+      '@types/node': 14.11.5
     dev: true
     resolution:
       integrity: sha512-7SxFCd+FLlxCfwVwbyPxbR4khL9aNikJhrorw8nUIOqeuooc9gifBuDQOJw5kzN7i6i3vLn9G8Wde/4QDihpYw==
@@ -1466,7 +1466,7 @@ packages:
   /@types/cookies/0.7.4:
     dependencies:
       '@types/connect': 3.4.33
-      '@types/express': 4.17.7
+      '@types/express': 4.17.8
       '@types/keygrip': 1.0.2
       '@types/node': 14.11.5
     dev: false
@@ -1474,7 +1474,7 @@ packages:
       integrity: sha512-oTGtMzZZAVuEjTwCjIh8T8FrC8n/uwy+PG0yTvQcdZ7etoel7C7/3MSd7qrukENTgQtotG7gvBlBojuVs7X5rw==
   /@types/cors/2.8.7:
     dependencies:
-      '@types/express': 4.17.7
+      '@types/express': 4.17.8
     dev: false
     resolution:
       integrity: sha512-sOdDRU3oRS7LBNTIqwDkPJyq0lpHYcbMTt0TrjzsXbk/e37hcLTH6eZX7CdbDeN0yJJvzw9hFBZkbtCSbk/jAQ==
@@ -1484,10 +1484,9 @@ packages:
       integrity: sha512-kM2g9Fdk/du24fKuuQhA/LBleFR4Z4JP2MVKpLxQQSzofF1uJ06D+c05zfLDAkkDO55aEeNwJih0gHrE/Ci20A==
   /@types/express-serve-static-core/4.17.13:
     dependencies:
-      '@types/node': 14.11.4
+      '@types/node': 14.11.5
       '@types/qs': 6.9.5
       '@types/range-parser': 1.2.3
-    dev: true
     resolution:
       integrity: sha512-RgDi5a4nuzam073lRGKTUIaL3eF2+H7LJvJ8eUnCI0wA6SNjXc44DCmWNiTLs/AZ7QlsFWZiw/gTG3nSQGL0fA==
   /@types/express-serve-static-core/4.17.9:
@@ -1495,12 +1494,13 @@ packages:
       '@types/node': 14.11.5
       '@types/qs': 6.9.5
       '@types/range-parser': 1.2.3
+    dev: false
     resolution:
       integrity: sha512-DG0BYg6yO+ePW+XoDENYz8zhNGC3jDDEpComMYn7WJc4mY1Us8Rw9ax2YhJXxpyk2SF47PQAoQ0YyVT1a0bEkA==
   /@types/express/4.17.7:
     dependencies:
       '@types/body-parser': 1.19.0
-      '@types/express-serve-static-core': 4.17.9
+      '@types/express-serve-static-core': 4.17.13
       '@types/qs': 6.9.5
       '@types/serve-static': 1.13.5
     dev: false
@@ -1512,7 +1512,6 @@ packages:
       '@types/express-serve-static-core': 4.17.13
       '@types/qs': 6.9.5
       '@types/serve-static': 1.13.5
-    dev: true
     resolution:
       integrity: sha512-wLhcKh3PMlyA2cNAB9sjM1BntnhPMiM0JOBwPBqttjHev2428MLEB4AYVN+d8s2iyCVZac+o41Pflm/ZH5vLXQ==
   /@types/fs-capacitor/2.0.0:
@@ -1529,7 +1528,7 @@ packages:
       integrity: sha512-SEYeGAIQIQX8NN6LDKprLjbrd5dARM5EXsd8GI/A5l0apYI1fGMWgPHSe4ZKL4eozlAyI+doUE9XbYS4xCkQ1w==
   /@types/graphql-upload/8.0.4:
     dependencies:
-      '@types/express': 4.17.7
+      '@types/express': 4.17.8
       '@types/fs-capacitor': 2.0.0
       '@types/koa': 2.11.4
       graphql: 15.3.0
@@ -1548,13 +1547,13 @@ packages:
     dependencies:
       '@types/connect': 3.4.33
       '@types/http-proxy': 1.17.4
-      '@types/node': 14.11.4
+      '@types/node': 14.11.5
     dev: true
     resolution:
       integrity: sha512-lnBTx6HCOUeIJMLbI/LaL5EmdKLhczJY5oeXZpX/cXE4rRqb3RmV7VcMpiEfYkmTjipv3h7IAyIINe4plEv7cA==
   /@types/http-proxy/1.17.4:
     dependencies:
-      '@types/node': 14.11.4
+      '@types/node': 14.11.5
     dev: true
     resolution:
       integrity: sha512-IrSHl2u6AWXduUaDLqYpt45tLVCtYv7o4Z0s1KghBCDgIIS9oW5K1H8mZG/A2CfeLdEa7rTd1ACOiHBc1EMT2Q==
@@ -1624,10 +1623,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-4c38N7p9k9yqdcANh/WExTahkBgOTmggCyrTvVcbE8ByqO3g8evt/407v/I4X/gdfUkIyZBSQh/Rc3tvuwlVGw==
-  /@types/node/14.11.4:
-    dev: true
-    resolution:
-      integrity: sha512-KmoLCUeW2cWKkEOQ0gQcECuqOc0g7B7zcmRPQNMT4ntNm0luKv3BTLcqIyWpTxkhLDzLTdMus11j/6DROaZdPw==
   /@types/node/14.11.5:
     resolution:
       integrity: sha512-jVFzDV6NTbrLMxm4xDSIW/gKnk8rQLF9wAzLWIOg+5nU6ACrIMndeBdXci0FGtqJbP9tQvm6V39eshc96TO2wQ==
@@ -1651,7 +1646,7 @@ packages:
       integrity: sha512-ewFXqrQHlFsgc09MK5jP5iR7vumV/BYayNC6PgJO2LPe8vrnNFyjQjSppfEngITi0qvfKtzFvgKymGheFM9UOA==
   /@types/serve-static/1.13.5:
     dependencies:
-      '@types/express-serve-static-core': 4.17.9
+      '@types/express-serve-static-core': 4.17.13
       '@types/mime': 2.0.3
     resolution:
       integrity: sha512-6M64P58N+OXjU432WoLLBQxbA0LRGBCRm7aAGQJ+SMC1IMl0dgRVi9EFfoDcS2a7Xogygk/eGN94CfwU9UF7UQ==
@@ -1691,7 +1686,7 @@ packages:
       integrity: sha512-5oiXqR7kwDGZ6+gmzIO2lTC+QsriNuQXZDWNYRV3l2XRN/zmPgnC21DLSx2D05zvD8vnXW6qUg7JnXZ4I6qLVQ==
   /@types/webpack-sources/2.0.0:
     dependencies:
-      '@types/node': 14.11.4
+      '@types/node': 14.11.5
       '@types/source-list-map': 0.1.2
       source-map: 0.7.3
     dev: true
@@ -1700,7 +1695,7 @@ packages:
   /@types/webpack/4.41.22:
     dependencies:
       '@types/anymatch': 1.3.1
-      '@types/node': 14.11.4
+      '@types/node': 14.11.5
       '@types/tapable': 1.0.6
       '@types/uglify-js': 3.11.0
       '@types/webpack-sources': 2.0.0
@@ -1860,7 +1855,7 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-YfdaoSMvD1nj7+DsrwfTvTnhDXI7bsuh+Y5qWwvQXlD24uLgnsoww3qbiZvWf/EoviZMrvqkqN4CBw0W3BWUTQ==
-  /@vue/babel-preset-app/4.5.6_vue@3.0.0:
+  /@vue/babel-preset-app/4.5.7_vue@3.0.0:
     dependencies:
       '@babel/core': 7.11.6
       '@babel/helper-compilation-targets': 7.10.4_@babel+core@7.11.6
@@ -1888,7 +1883,7 @@ packages:
       vue:
         optional: true
     resolution:
-      integrity: sha512-Eps83UNiBJeqlbpR9afYnhvjVLElVtA4fDLNuVUr1r3RbepoxWuq+mUTr3TBArPQebnAaDcrZaNHBWTLRbfo3A==
+      integrity: sha512-A9ujqmvR9wb8nWiMnEYZW/8QfGZbqxC/etzbKIDrUdsqJ27jx106leMHJc8nmAn58RqGd6iww6uZ3Sx7aYiG3A==
   /@vue/babel-preset-jsx/1.1.2_@babel+core@7.11.6:
     dependencies:
       '@babel/core': 7.11.6
@@ -1946,16 +1941,16 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-T8ZCwC8Jp2uRtcZ88YwZtZXe7eQrJcfRq0uTFy6ShbwYJyz5qWskRFoVsdTi9o0WEhmQXxhQUewodOSCUPVmsQ==
-  /@vue/cli-overlay/4.5.6:
+  /@vue/cli-overlay/4.5.7:
     dev: true
     resolution:
-      integrity: sha512-8kFIdiErtGRlvKWJV0AcF6SXakQDxeuqqcMhWt3qIJxRH6aD33RTC37Q3KWuMsYryBZpEY3tNWGhS1d4spQu0g==
-  /@vue/cli-plugin-babel/4.5.6_@vue+cli-service@4.5.6+vue@3.0.0:
+      integrity: sha512-45BbVPR2dTa27QGaFap7eNYbJSzuIhGff1R5L50tWlpw/lf8fIyOuXSdSNQGZCVe+Y3NbcD2DK7mZryxOXWGmw==
+  /@vue/cli-plugin-babel/4.5.7_@vue+cli-service@4.5.7+vue@3.0.0:
     dependencies:
       '@babel/core': 7.11.6
-      '@vue/babel-preset-app': 4.5.6_vue@3.0.0
-      '@vue/cli-service': 4.5.6_c577a15ecb799c91b63535f4c489e184
-      '@vue/cli-shared-utils': 4.5.6
+      '@vue/babel-preset-app': 4.5.7_vue@3.0.0
+      '@vue/cli-service': 4.5.7_f19ef3ebfa26256be901d7640e05d2e3
+      '@vue/cli-shared-utils': 4.5.7
       babel-loader: 8.1.0_d2a654c8b7ff226093b38eb7b56a78a8
       cache-loader: 4.1.0_webpack@4.44.2
       thread-loader: 2.1.3_webpack@4.44.2
@@ -1965,11 +1960,11 @@ packages:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
       vue: '*'
     resolution:
-      integrity: sha512-jkeXIpvxg2Og+6igsck6qBMFwFN5poqbgDL7JEQP94DPRMAGt+AOoEz6Ultwvykd9lRDD/xLmzZ2MTeXvrpq4A==
-  /@vue/cli-plugin-eslint/4.5.6_d9ca8c8bbd6c91a06c61e2df516b60d6:
+      integrity: sha512-cqtHoXWHxtMj8qyN0A2TvFRuEQsqtDlYeKaOT1XDwbfHZwWXlD4BBsqXZBnqQkQI0hijMOA0QOnqA63/x0lpMg==
+  /@vue/cli-plugin-eslint/4.5.7_32ec9d12de5f8dc004b5352f919e97ea:
     dependencies:
-      '@vue/cli-service': 4.5.6_c577a15ecb799c91b63535f4c489e184
-      '@vue/cli-shared-utils': 4.5.6
+      '@vue/cli-service': 4.5.7_f19ef3ebfa26256be901d7640e05d2e3
+      '@vue/cli-shared-utils': 4.5.7
       eslint: 7.10.0
       eslint-loader: 2.2.1_eslint@7.10.0+webpack@4.44.2
       globby: 9.2.0
@@ -1981,21 +1976,21 @@ packages:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
       eslint: '>= 1.6.0'
     resolution:
-      integrity: sha512-maG3dy64pGVT9mMQq7KvP6kbBK6TeVgcj1aa1QwzT5yrw65E2So8bKMrEMEjy53b88bgR9jZ7gshOks00jrYsg==
-  /@vue/cli-plugin-router/4.5.6_@vue+cli-service@4.5.6:
+      integrity: sha512-6fWob1xh2W0uif2++YhNiBWITDBsAEktdgnLRgIgM/UqUg9oFpz9tqs0i85PQwjUDIn/erMT2ID3hnOncYTxxQ==
+  /@vue/cli-plugin-router/4.5.7_@vue+cli-service@4.5.7:
     dependencies:
-      '@vue/cli-service': 4.5.6_c577a15ecb799c91b63535f4c489e184
-      '@vue/cli-shared-utils': 4.5.6
+      '@vue/cli-service': 4.5.7_f19ef3ebfa26256be901d7640e05d2e3
+      '@vue/cli-shared-utils': 4.5.7
     dev: true
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
     resolution:
-      integrity: sha512-QEqOGglg0JEKddZPuyiSnAzAVK7IzLrdTPCUegigzGSbUXDW4gQiltY3/2nij2q538YvdIM7JXtW1sUfy4MgHQ==
-  /@vue/cli-plugin-typescript/4.5.6_3a49ca03fec2aaccb8c0f376448f5b3f:
+      integrity: sha512-wzKz8+qOXNqVglcw90lYHbu5UJQo8QoyNXHAiM0RIX4r3W8KqiHrvu7MZFCOVKM3ojRFbDofumorypN2yieSXA==
+  /@vue/cli-plugin-typescript/4.5.7_4e32fbe9fb9c7abce216d0e0fc2ae631:
     dependencies:
       '@types/webpack-env': 1.15.3
-      '@vue/cli-service': 4.5.6_c577a15ecb799c91b63535f4c489e184
-      '@vue/cli-shared-utils': 4.5.6
+      '@vue/cli-service': 4.5.7_f19ef3ebfa26256be901d7640e05d2e3
+      '@vue/cli-shared-utils': 4.5.7
       '@vue/compiler-sfc': 3.0.0_vue@3.0.0
       cache-loader: 4.1.0_webpack@4.44.2
       fork-ts-checker-webpack-plugin: 3.1.1
@@ -2017,16 +2012,16 @@ packages:
       '@vue/compiler-sfc':
         optional: true
     resolution:
-      integrity: sha512-zr/N1hX5gQQjR2BBFJdZPXatyKC9Scaw8vRDUhu6AE8phcQqf81DhRRVHICss9mMt7DTLKEHHjcYgFrotjEaew==
-  /@vue/cli-plugin-vuex/4.5.6_@vue+cli-service@4.5.6:
+      integrity: sha512-QXcJwFKxB3DYcZCc0FeobvxPeo4QH42DpZrEJqPDhtpmKKDh+TAD+FHfRtY5t0JYmDOKPw4hppucB0G6TWqdFg==
+  /@vue/cli-plugin-vuex/4.5.7_@vue+cli-service@4.5.7:
     dependencies:
-      '@vue/cli-service': 4.5.6_c577a15ecb799c91b63535f4c489e184
+      '@vue/cli-service': 4.5.7_f19ef3ebfa26256be901d7640e05d2e3
     dev: true
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
     resolution:
-      integrity: sha512-cWxj0jIhhupU+oFl0mc1St3ig9iF5F01XKwAhKEbvvuHR97zHxLd29My/vvcRwojZMy4aY320oJ+0ljoCIbueQ==
-  /@vue/cli-service/4.5.6_c577a15ecb799c91b63535f4c489e184:
+      integrity: sha512-bHH2JSAd/S9fABtZdr3xVSgbIPm3PGcan56adMt0hGlm6HG/QxDNuPLppMleuBLr9uHoHX5x7sQmbtZvzIYjxw==
+  /@vue/cli-service/4.5.7_f19ef3ebfa26256be901d7640e05d2e3:
     dependencies:
       '@intervolga/optimize-cssnano-plugin': 1.0.6_webpack@4.44.2
       '@soda/friendly-errors-webpack-plugin': 1.7.1_webpack@4.44.2
@@ -2034,10 +2029,10 @@ packages:
       '@types/minimist': 1.2.0
       '@types/webpack': 4.41.22
       '@types/webpack-dev-server': 3.11.0
-      '@vue/cli-overlay': 4.5.6
-      '@vue/cli-plugin-router': 4.5.6_@vue+cli-service@4.5.6
-      '@vue/cli-plugin-vuex': 4.5.6_@vue+cli-service@4.5.6
-      '@vue/cli-shared-utils': 4.5.6
+      '@vue/cli-overlay': 4.5.7
+      '@vue/cli-plugin-router': 4.5.7_@vue+cli-service@4.5.7
+      '@vue/cli-plugin-vuex': 4.5.7_@vue+cli-service@4.5.7
+      '@vue/cli-shared-utils': 4.5.7
       '@vue/compiler-sfc': 3.0.0_vue@3.0.0
       '@vue/component-compiler-utils': 3.2.0
       '@vue/preload-webpack-plugin': 1.1.2_e19cda6b5f21e6c518504c22be752ae4
@@ -2073,7 +2068,7 @@ packages:
       pnp-webpack-plugin: 1.6.4_typescript@4.0.3
       portfinder: 1.0.28
       postcss-loader: 3.0.0
-      sass-loader: 10.0.2_sass@1.26.12
+      sass-loader: 10.0.3_sass@1.27.0
       ssri: 7.1.0
       terser-webpack-plugin: 2.3.8_webpack@4.44.2
       thread-loader: 2.1.3_webpack@4.44.2
@@ -2117,8 +2112,8 @@ packages:
       vue-template-compiler:
         optional: true
     resolution:
-      integrity: sha512-wl0rhjHSpy2Mc2zNU6sfhaUVNNaRzgXNfZMIpTZMO3wJalPMLuvGC3KLMaXcpvuI01zeQBmkEocAdhzay4lQ0w==
-  /@vue/cli-shared-utils/4.5.6:
+      integrity: sha512-iT5wb5JbF/kbJCY7HR8qabWEiaMvZP4/KPezsnEp/6vNGAF0Akx0FGvCuU9sm7uf6w0UKzIJ38I6JJBtkOMvJA==
+  /@vue/cli-shared-utils/4.5.7:
     dependencies:
       '@hapi/joi': 15.1.1
       chalk: 2.4.2
@@ -2133,19 +2128,19 @@ packages:
       semver: 6.3.0
       strip-ansi: 6.0.0
     resolution:
-      integrity: sha512-p6ePDlEa7Xc0GEt99KDOCwPZtR7UnoEaZLMfwPYU5LAWkdCmtAw8HPAY/WWcjtoiaAkY4k9tz7ZehQasZ9mJxg==
-  /@vue/cli-ui-addon-webpack/4.5.6:
+      integrity: sha512-oicFfx9PvgupxN/LW0s2ktdn1U6bBu8J4lPcW2xj6TtTWUkkxwzis4Tm+XOvgvZnu44+d7216y0Y4TX90q645w==
+  /@vue/cli-ui-addon-webpack/4.5.7:
     dev: false
     resolution:
-      integrity: sha512-wjgzU4+cl93YXDrnSdZQmYRHyvCSgq24wPQFsfdXrobfP6a76wx+QedrLm7o2o0/BCHNCkDrTQLHxHvPiVm9PA==
-  /@vue/cli-ui-addon-widgets/4.5.6:
+      integrity: sha512-FTB7Oc+IXFuDPA7Q8m3bY0c70+J/wJbBFUZyqFDdSRgd09t3sG3PJ9/4jzW5KJKyBB2uyttvhk1atZuNPuUNaw==
+  /@vue/cli-ui-addon-widgets/4.5.7:
     dev: false
     resolution:
-      integrity: sha512-4Lpf59lr0pycIzKdTlZsgubJxCHDkAqcc4I60Gp6rggueksuhz2q3rAp7kfxwCzaZlAXXsqy6hoeyj+3sukqDQ==
-  /@vue/cli-ui/4.5.6:
+      integrity: sha512-9EyKQKj/KhRcReWHa8G4j5d6YG/+dUppHo1IjeTbAhRdFmPgVJ3B51y+epK136s8KqS9p/bcsXXuIs8gZIxcjw==
+  /@vue/cli-ui/4.5.7:
     dependencies:
       '@akryum/winattr': 3.0.0
-      '@vue/cli-shared-utils': 4.5.6
+      '@vue/cli-shared-utils': 4.5.7
       apollo-server-express: 2.18.2_graphql@14.7.0
       clone: 2.1.2
       deepmerge: 4.2.2
@@ -2171,21 +2166,21 @@ packages:
       rss-parser: 3.9.0
       shortid: 2.2.15
       typescript: 3.9.7
-      vue-cli-plugin-apollo: 0.21.3_02958c0b430ec65a07e8c00bfbadcd53
+      vue-cli-plugin-apollo: 0.21.3_9d72360745a91bf4af9a0ec4448d7ef0
       watch: 1.0.2
     dev: false
     engines:
       node: '>=8'
     resolution:
-      integrity: sha512-AmirESDgjeeTIvFc/OgQeNtYh1cfollyFdF3JSGaAy27rJJlbWfYRgHJoPFp7SD61FQQuqE+TOyiNjplHHt/Rg==
-  /@vue/cli/4.5.6:
+      integrity: sha512-3K+KGGOtkpxpvrkq1Q7FAo1i4CmzCyB6MtOrs5rU6Uqt8eZUjdBu7m7ElsIDRNvprAERKmarTyu89ErgxrkC4g==
+  /@vue/cli/4.5.7:
     dependencies:
       '@types/ejs': 2.7.0
       '@types/inquirer': 6.5.0
-      '@vue/cli-shared-utils': 4.5.6
-      '@vue/cli-ui': 4.5.6
-      '@vue/cli-ui-addon-webpack': 4.5.6
-      '@vue/cli-ui-addon-widgets': 4.5.6
+      '@vue/cli-shared-utils': 4.5.7
+      '@vue/cli-ui': 4.5.7
+      '@vue/cli-ui-addon-webpack': 4.5.7
+      '@vue/cli-ui-addon-widgets': 4.5.7
       boxen: 4.2.0
       cmd-shim: 3.0.3
       commander: 2.20.3
@@ -2220,7 +2215,7 @@ packages:
       node: '>=8.9'
     hasBin: true
     resolution:
-      integrity: sha512-S3CToCDtuqkcUyPrPTYKdic9aiOsVairCP8dEydyYjvLUIYVVK3GWJqBfThkNdaMjeB/fVPt8qlYjGqvSs55GQ==
+      integrity: sha512-rx6yzQQ0DLxtJGxvGti8R1ND/wF5ISIv+hwyh1qB2R9gO6WobhT9sUBB/8Rth5hxRj7/MuCIz6KgmTc2hW+u2g==
   /@vue/compiler-core/3.0.0:
     dependencies:
       '@babel/parser': 7.11.5
@@ -2293,7 +2288,7 @@ packages:
       prettier: '>= 1.13.0'
     resolution:
       integrity: sha512-wFQmv45c3ige5EA+ngijq40YpVcIkAy0Lihupnsnd1Dao5CBbPyfCzqtejFLZX1EwH/kCJdpz3t6s+5wd3+KxQ==
-  /@vue/eslint-config-typescript/5.1.0_20954f72b42186ce2bd3d784bacce6f8:
+  /@vue/eslint-config-typescript/7.0.0_20954f72b42186ce2bd3d784bacce6f8:
     dependencies:
       '@typescript-eslint/eslint-plugin': 4.4.0_a71b0516f86a95383173f79e74386c73
       '@typescript-eslint/parser': 4.4.0_eslint@7.10.0+typescript@4.0.3
@@ -2301,13 +2296,15 @@ packages:
       eslint-plugin-vue: 7.0.1_eslint@7.10.0
       vue-eslint-parser: 7.1.0_eslint@7.10.0
     dev: true
+    engines:
+      node: ^10.12.0 || >=12.0.0
     peerDependencies:
-      '@typescript-eslint/eslint-plugin': ^2.7.0
-      '@typescript-eslint/parser': ^2.7.0
+      '@typescript-eslint/eslint-plugin': ^4.4.0
+      '@typescript-eslint/parser': ^4.4.0
       eslint: ^5.0.0 || ^6.0.0 || ^7.0.0
-      eslint-plugin-vue: ^5.2.3 || ^6.0.0 || ^7.0.0-0
+      eslint-plugin-vue: ^5.2.3 || ^6.0.0 || ^7.0.0
     resolution:
-      integrity: sha512-wFAdPMWegKZOdbQBEWV4/KbOKuX/6Q5db3304kiWNBK+6P7+CoMrsbaKzJFjuAZF7fQR2fJtZT9ciGWVVT//vw==
+      integrity: sha512-UxUlvpSrFOoF8aQ+zX1leYiEBEm7CZmXYn/ZEM1zwSadUzpamx56RB4+Htdjisv1mX2tOjBegNUqH3kz2OL+Aw==
   /@vue/preload-webpack-plugin/1.1.2_e19cda6b5f21e6c518504c22be752ae4:
     dependencies:
       html-webpack-plugin: 3.2.0_webpack@4.44.2
@@ -2889,7 +2886,7 @@ packages:
       core-js: 3.6.5
       cosmiconfig: 5.2.1
       dotenv: 8.2.0
-      glob: 7.1.5
+      glob: 7.1.6
       graphql: 15.3.0
       graphql-tag: 2.11.0_graphql@15.3.0
       lodash.debounce: 4.0.8
@@ -3230,7 +3227,7 @@ packages:
       apollo-codegen-swift: 0.38.0_typescript@3.9.7
       apollo-codegen-typescript: 0.38.0_typescript@3.9.7
       apollo-env: 0.6.5
-      apollo-graphql: 0.6.0_graphql@14.7.0
+      apollo-graphql: 0.6.0_graphql@15.3.0
       apollo-language-server: 1.24.0_typescript@3.9.7
       chalk: 2.4.2
       cli-ux: 5.5.0
@@ -3240,8 +3237,8 @@ packages:
       git-rev-sync: 2.1.0
       git-url-parse: 11.2.0
       glob: 7.1.5
-      graphql: 14.7.0
-      graphql-tag: 2.11.0_graphql@14.7.0
+      graphql: 15.3.0
+      graphql-tag: 2.11.0_graphql@15.3.0
       listr: 0.14.3_listr@0.14.3
       lodash.identity: 3.0.0
       lodash.pickby: 4.6.0
@@ -6794,7 +6791,7 @@ packages:
       integrity: sha512-ollPHROa5mcxDEkwg6bPt3QbEf4pDQSNtd6JPL1YvOvAo/7/0VAm9TccUeoTmarjPw4pfUthSCqcyfNB1I3ZSg==
   /globule/1.3.2:
     dependencies:
-      glob: 7.1.5
+      glob: 7.1.6
       lodash: 4.17.20
       minimatch: 3.0.4
     dev: false
@@ -10806,13 +10803,13 @@ packages:
   /safer-buffer/2.1.2:
     resolution:
       integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
-  /sass-loader/10.0.2_sass@1.26.12:
+  /sass-loader/10.0.3_sass@1.27.0:
     dependencies:
       klona: 2.0.4
       loader-utils: 2.0.0
       neo-async: 2.6.2
-      sass: 1.26.12
-      schema-utils: 2.7.1
+      sass: 1.27.0
+      schema-utils: 3.0.0
       semver: 7.3.2
     dev: true
     engines:
@@ -10830,8 +10827,8 @@ packages:
       sass:
         optional: true
     resolution:
-      integrity: sha512-wV6NDUVB8/iEYMalV/+139+vl2LaRFlZGEd5/xmdcdzQcgmis+npyco6NsDTVOlNA3y2NV9Gcz+vHyFMIT+ffg==
-  /sass/1.26.12:
+      integrity: sha512-W4+FV5oUdYy0PnC11ZoPrcAexODgDCa3ngxoy5X5qBhZYoPz9FPjb6Oox8Aa0ZYEyx34k8AQfOVuvqefOSAAUQ==
+  /sass/1.27.0:
     dependencies:
       chokidar: 3.4.2
     dev: true
@@ -10839,7 +10836,7 @@ packages:
       node: '>=8.9.0'
     hasBin: true
     resolution:
-      integrity: sha512-hmSwtBOWoS9zwe0yAS+QmaseVCUELiGV22gXHDR7+9stEsVuEuxfY1GhC8XmUpC+Ir3Hwq7NxSUNbnmkznnF7g==
+      integrity: sha512-0gcrER56OkzotK/GGwgg4fPrKuiFlPNitO7eUJ18Bs+/NBlofJfMxmxqpqJxjae9vu0Wq8TZzrSyxZal00WDig==
   /sax/1.2.4:
     resolution:
       integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
@@ -10874,6 +10871,16 @@ packages:
       node: '>= 8.9.0'
     resolution:
       integrity: sha512-SHiNtMOUGWBQJwzISiVYKu82GiV4QYGePp3odlY1tuKO7gPtphAT5R/py0fA6xtbgLL/RvtJZnU9b8s0F1q0Xg==
+  /schema-utils/3.0.0:
+    dependencies:
+      '@types/json-schema': 7.0.6
+      ajv: 6.12.5
+      ajv-keywords: 3.5.2_ajv@6.12.5
+    dev: true
+    engines:
+      node: '>= 10.13.0'
+    resolution:
+      integrity: sha512-6D82/xSzO094ajanoOSbe4YvXWMfn2A//8Y1+MUqFAJul5Bs+yn36xbK9OtNDcRVSBJ9jjeoXftM6CfztsjOAA==
   /sec/1.0.0:
     dev: false
     engines:
@@ -11049,7 +11056,7 @@ packages:
       integrity: sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg==
   /shelljs/0.8.4:
     dependencies:
-      glob: 7.1.5
+      glob: 7.1.6
       interpret: 1.4.0
       rechoir: 0.6.2
     dev: false
@@ -12448,9 +12455,9 @@ packages:
     dev: false
     resolution:
       integrity: sha512-sLI2L0uGov3wKVb9EB+vIQBl9tVP90nqRvxSoJ35vI3NjxE8jfsE5DSOhWgSunHSZmKS4OCi2jrtfxK7uyp2ww==
-  /vue-cli-plugin-apollo/0.21.3_02958c0b430ec65a07e8c00bfbadcd53:
+  /vue-cli-plugin-apollo/0.21.3_9d72360745a91bf4af9a0ec4448d7ef0:
     dependencies:
-      '@vue/cli-shared-utils': 4.5.6
+      '@vue/cli-shared-utils': 4.5.7
       apollo: 2.31.0_typescript@3.9.7
       apollo-cache-inmemory: 1.6.6_graphql@14.7.0
       apollo-client: 2.6.10_graphql@14.7.0
@@ -13110,23 +13117,23 @@ packages:
 specifiers:
   '@typescript-eslint/eslint-plugin': ^4.4.0
   '@typescript-eslint/parser': ^4.4.0
-  '@vue/cli': ^4.5.6
-  '@vue/cli-plugin-babel': ~4.5.6
-  '@vue/cli-plugin-eslint': ~4.5.6
-  '@vue/cli-plugin-router': ~4.5.6
-  '@vue/cli-plugin-typescript': ~4.5.6
-  '@vue/cli-plugin-vuex': ~4.5.6
-  '@vue/cli-service': ~4.5.6
+  '@vue/cli': ^4.5.7
+  '@vue/cli-plugin-babel': ~4.5.7
+  '@vue/cli-plugin-eslint': ~4.5.7
+  '@vue/cli-plugin-router': ~4.5.7
+  '@vue/cli-plugin-typescript': ~4.5.7
+  '@vue/cli-plugin-vuex': ~4.5.7
+  '@vue/cli-service': ~4.5.7
   '@vue/compiler-sfc': ^3.0.0
   '@vue/eslint-config-prettier': ^6.0.0
-  '@vue/eslint-config-typescript': ^5.1.0
+  '@vue/eslint-config-typescript': ^7.0.0
   core-js: ^3.6.5
   eslint: ^7.10.0
   eslint-plugin-prettier: ^3.1.4
   eslint-plugin-vue: ^7.0.1
   prettier: ^2.1.2
-  sass: ^1.26.12
-  sass-loader: ^10.0.2
+  sass: ^1.27.0
+  sass-loader: ^10.0.3
   tinycolor2: ^1.4.2
   typescript: ~4.0.3
   vue: ^3.0.0-0
