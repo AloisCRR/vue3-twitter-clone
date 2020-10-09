@@ -137,6 +137,7 @@ module.exports = {
       twitter: {
         normal: "#1da1f2",
         hover: tinycolor("#1da1f2").setAlpha(0.1).toRgbString(),
+        hoverTweet: tinycolor("#ffffff").setAlpha(0.03).toRgbString(),
         buttonhover: "#1a91da",
         background: "#192734",
         textGray: "#8899a6",
@@ -713,7 +714,7 @@ module.exports = {
     borderOpacity: ["responsive", "hover", "focus"],
     borderRadius: ["responsive"],
     borderStyle: ["responsive"],
-    borderWidth: ["responsive"],
+    borderWidth: ["responsive", "last"],
     boxShadow: ["responsive", "hover", "focus"],
     boxSizing: ["responsive"],
     container: ["responsive"],
