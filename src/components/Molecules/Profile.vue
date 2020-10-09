@@ -1,11 +1,12 @@
 <template>
   <div
-    class="border-l border-r border-gray-800 flex flex-col row-span-3 col-span-2"
+    class="border-l border-r border-gray-800 flex flex-col row-span-3 col-span-5 overflow-y-auto"
   >
     <SectionName />
     <ProfileBanner />
     <ProfileInfo />
     <TabList />
+    <Tweet />
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import SectionName from "@/components/Atoms/SectionName.vue";
 import TabList from "@/components/Molecules/TabList.vue";
 import ProfileBanner from "@/components/Atoms/ProfileBanner.vue";
 import ProfileInfo from "@/components/Molecules/ProfileInfo.vue";
+import Tweet from "@/components/Atoms/Tweet.vue";
 
 export default defineComponent({
   name: "Profile",
@@ -24,8 +26,17 @@ export default defineComponent({
     ProfileBanner,
     ProfileInfo,
     TabList,
+    Tweet,
   },
 });
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+div::-webkit-scrollbar {
+  display: none;
+}
+
+div {
+  scrollbar-width: none;
+}
+</style>

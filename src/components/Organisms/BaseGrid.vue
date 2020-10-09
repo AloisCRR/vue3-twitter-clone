@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen grid grid-cols-4 grid-rows-3">
+  <div class="h-screen grid grid-cols-10 grid-rows-3 gap-3">
     <Navigation />
     <Profile />
     <Knows />
