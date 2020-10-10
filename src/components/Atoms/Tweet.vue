@@ -4,12 +4,8 @@
     class="text-white flex p-3 text-left focus:outline-none hover:bg-twitter-hoverTweet transition duration-300 ease-in-out border-gray-800 border-t-2 last:border-b-8"
   >
     <div class="mr-3">
-      <img
-        src="https://pbs.twimg.com/profile_images/975748260689338368/L9oiNv4I_400x400.jpg"
-        alt="Profile photo"
-        class="bg-white rounded-full"
-        width="120"
-        height="120"
+      <rounded-image
+        :source="'https://pbs.twimg.com/profile_images/975748260689338368/L9oiNv4I_400x400.jpg'"
       />
     </div>
     <div>
@@ -33,10 +29,14 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import RoundedImage from "@/components/Atoms/RoundedImage.vue";
 
 export default defineComponent({
   name: "Tweet",
   props: {},
+  components: {
+    RoundedImage,
+  },
 });
 </script>
 
