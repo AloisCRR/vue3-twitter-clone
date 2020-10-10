@@ -11,6 +11,29 @@ module.exports = {
   important: false,
   separator: ":",
   theme: {
+    extend: {
+      gridTemplateRows: {
+        8: "repeat(8, minmax(0, 1fr))",
+      },
+      gridRow: {
+        "span-fill-1": "1 / -1",
+        "span-fill-2": "2 / -1",
+        "span-fill-3": "3 / -1",
+        "span-fill-4": "4 / -1",
+        "span-fill-5": "5 / -1",
+        "span-fill-6": "6 / -1",
+        "span-fill-7": "7 / -1",
+        "span-fill-8": "8 / -1",
+        "span-fill-reverse-1": "-1 / 1",
+        "span-fill-reverse-2": "-1 / 2",
+        "span-fill-reverse-3": "-1 / 3",
+        "span-fill-reverse-4": "-1 / 4",
+        "span-fill-reverse-5": "-1 / 5",
+        "span-fill-reverse-6": "-1 / 6",
+        "span-fill-reverse-7": "-1 / 7",
+        "span-fill-reverse-8": "-1 / 8",
+      },
+    },
     screens: {
       sm: "640px",
       md: "768px",
@@ -140,7 +163,8 @@ module.exports = {
         hoverTweet: tinycolor("#ffffff").setAlpha(0.03).toRgbString(),
         buttonhover: "#1a91da",
         background: "#192734",
-        textGray: "#8899a6",
+        gray: "#8899a6",
+        light: "#253341",
       },
     },
     spacing: {

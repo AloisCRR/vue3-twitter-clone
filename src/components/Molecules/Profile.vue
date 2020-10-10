@@ -1,6 +1,6 @@
 <template>
   <div
-    class="border-l border-r border-gray-800 flex flex-col row-span-3 col-span-5 overflow-y-auto"
+    class="border-l border-r border-gray-800 flex flex-col row-span-fill-1 col-span-5 overflow-y-auto"
   >
     <SectionName />
     <ProfileBanner />

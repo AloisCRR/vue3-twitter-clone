@@ -1,5 +1,5 @@
 <template>
-  <div class="flex p-1 text-twitter-textGray">
+  <div class="flex p-1 text-twitter-gray">
     <button type="button">Flecha atras</button>
     <div>
       <strong class="block text-white mb-0">Usuario</strong>

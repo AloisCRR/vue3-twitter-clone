@@ -1,5 +1,5 @@
 <template>
-  <div class="px-3 pb-3 text-twitter-textGray">
+  <div class="px-3 pb-3 text-twitter-gray">
     <div>
       <div class="font-bold text-white">Usuario</div>
       <div>@AloisCRR</div>

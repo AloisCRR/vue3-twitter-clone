@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col row-span-3 col-span-2">
+  <div class="flex flex-col row-span-fill-1 col-span-2">
     <NavButton
       v-for="(options, index) in state.nav"
       :key="index"

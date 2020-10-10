@@ -2,8 +2,7 @@
   <div class="h-screen grid grid-cols-10 grid-rows-3 gap-3">
     <Navigation />
     <Profile />
-    <Knows />
-    <Trending />
+    <RightBar />
   </div>
 </template>
 
@@ -11,8 +10,7 @@
 import { defineComponent } from "vue";
 import Navigation from "@/components/Molecules/Navigation.vue";
 import Profile from "@/components/Molecules/Profile.vue";
-import Knows from "@/components/Molecules/Knows.vue";
-import Trending from "@/components/Molecules/Trending.vue";
+import RightBar from "@/components/Molecules/RightBar.vue";
 
 export default defineComponent({
   name: "BaseGrid",
@@ -20,8 +18,7 @@ export default defineComponent({
   components: {
     Navigation,
     Profile,
-    Knows,
-    Trending,
+    RightBar,
   },
 });
 </script>

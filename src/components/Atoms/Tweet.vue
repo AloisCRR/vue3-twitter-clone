@@ -14,8 +14,8 @@
     </div>
     <div>
       <strong>Alois </strong>
-      <span class="text-twitter-textGray">@AloisCRR · </span>
-      <span class="text-twitter-textGray">25 dic. 2019</span>
+      <span class="text-twitter-gray">@AloisCRR · </span>
+      <span class="text-twitter-gray">25 dic. 2019</span>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
         corrupti minus voluptatibus, assumenda ex tempora laboriosam consequatur

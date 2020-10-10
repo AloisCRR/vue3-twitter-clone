@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-purple-600 row-span-1 col-span-3 rounded-lg">Knows</div>
+  <div class="bg-purple-600 row-span-2 col-span-3 rounded-lg">Knows</div>
 </template>
 
 <script lang="ts">
