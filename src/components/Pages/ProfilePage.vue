@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto h-screen">
+  <div id="profilePage" class="container mx-auto h-screen">
     <BaseGrid />
   </div>
 </template>
@@ -17,4 +17,10 @@ export default defineComponent({
 });
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+@media (max-width: 768px) {
+  #profilePage {
+    max-width: 100vw;
+  }
+}
+</style>

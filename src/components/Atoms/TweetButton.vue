@@ -1,9 +1,9 @@
 <template>
   <button
     type="button"
-    class="bg-twitter-primary hover:bg-twitter-buttonhover transition duration-300 ease-in-out rounded-full mx-3 text-white font-bold p-4 mt-4 focus:outline-none"
+    class="bg-twitter-primary hover:bg-twitter-buttonhover transition duration-300 ease-in-out rounded-full text-white font-bold p-4 mt-4 focus:outline-none xl:mx-5"
   >
-    Twittear
+    <span class="sx:hidden xl:inline-block">Twittear</span>
   </button>
 </template>
 

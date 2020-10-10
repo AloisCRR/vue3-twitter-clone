@@ -1,5 +1,5 @@
 <template>
-  <div class="col-span-3 row-span-fill-1 flex flex-col">
+  <div id="rightbar" class="sx:hidden lg:flex flex flex-col">
     <search-bar />
     <Follow />
     <trending />
@@ -26,4 +26,9 @@ export default defineComponent({
 });
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+#rightbar {
+  flex: 3;
+  min-width: 350px;
+}
+</style>

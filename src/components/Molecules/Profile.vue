@@ -1,6 +1,7 @@
 <template>
   <div
-    class="border-l border-r border-gray-800 flex flex-col row-span-fill-1 col-span-5 overflow-y-auto"
+    id="profile"
+    class="flex flex-col border-l border-r border-gray-800 mr-8 overflow-y-auto"
   >
     <SectionName />
     <ProfileBanner />
@@ -38,5 +39,15 @@ div::-webkit-scrollbar {
 
 div {
   scrollbar-width: none;
+}
+
+#profile {
+  flex: 5;
+}
+
+@media (max-width: 1024px) {
+  #profile {
+    margin: 0;
+  }
 }
 </style>

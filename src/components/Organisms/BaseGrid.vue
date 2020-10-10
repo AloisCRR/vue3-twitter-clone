@@ -1,7 +1,10 @@
 <template>
-  <div class="h-screen grid grid-cols-10 grid-rows-3 gap-3">
+  <div class="h-screen flex">
+    <!-- 250 -->
     <Navigation />
+    <!-- 600 -->
     <Profile />
+    <!-- 350 -->
     <RightBar />
   </div>
 </template>

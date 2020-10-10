@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col row-span-fill-1 col-span-2">
+  <div id="navigation" class="flex flex-col">
     <NavButton
       v-for="(options, index) in state.nav"
       :key="index"
@@ -51,4 +51,15 @@ export default defineComponent({
 });
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+#navigation {
+  flex: 2;
+}
+
+@media (max-width: 1280px) {
+  #navigation {
+    padding: 0 0.5rem;
+    flex: none;
+  }
+}
+</style>
