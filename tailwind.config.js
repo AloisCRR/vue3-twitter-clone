@@ -158,7 +158,7 @@ module.exports = {
         900: "#702459",
       },
       twitter: {
-        normal: "#1da1f2",
+        primary: "#1DA1F2",
         hover: tinycolor("#1da1f2").setAlpha(0.1).toRgbString(),
         hoverTweet: tinycolor("#ffffff").setAlpha(0.03).toRgbString(),
         buttonhover: "#1a91da",
@@ -234,6 +234,7 @@ module.exports = {
       default: "0.25rem",
       md: "0.375rem",
       lg: "0.5rem",
+      xl: "1rem",
       full: "9999px",
     },
     borderWidth: {
@@ -316,6 +317,7 @@ module.exports = {
       ],
     },
     fontSize: {
+      none: "0",
       xs: "0.75rem",
       sm: "0.875rem",
       base: "1rem",
