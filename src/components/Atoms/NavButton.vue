@@ -1,8 +1,8 @@
 <template>
   <button
     type="button"
-    class="self-start mb-2 transition duration-150 ease-in-out p-3 px-4 text-xl font-bold text-white rounded-full hover:bg-twitter-hover hover:text-twitter-normal focus:outline-none"
-    :class="{ 'text-twitter-normal': idx == active }"
+    class="self-start mb-2 transition duration-150 ease-in-out p-3 px-4 text-xl font-bold text-white rounded-full hover:bg-twitter-hover hover:text-twitter-primary focus:outline-none"
+    :class="{ 'text-twitter-primary': idx == active }"
   >
     {{ text }}
   </button>

@@ -10,6 +10,8 @@
       class="flex-1 bg-transparent focus:outline-none text-white text-sm"
       @focus="toggleSelected()"
       @blur="toggleSelected()"
+      autocomplete="false"
+      spellcheck="false"
     />
   </div>
 </template>
@@ -30,7 +32,7 @@ export default defineComponent({
     });
 
     const border = computed(() =>
-      state.selected ? "border-twitter-normal" : "border-transparent"
+      state.selected ? "border-twitter-primary" : "border-transparent"
     );
 
     const color = computed(() => (state.selected ? "#1da1f2" : "currentColor"));

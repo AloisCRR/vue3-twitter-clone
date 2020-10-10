@@ -1,7 +1,7 @@
 <template>
   <div class="col-span-3 row-span-fill-1 flex flex-col">
     <search-bar />
-    <knows />
+    <Follow />
     <trending />
   </div>
 </template>
@@ -9,7 +9,7 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import SearchBar from "@/components/Atoms/SearchBar.vue";
-import Knows from "@/components/Molecules/Knows.vue";
+import Follow from "@/components/Molecules/Follow.vue";
 import Trending from "@/components/Molecules/Trending.vue";
 
 export default defineComponent({
@@ -17,7 +17,7 @@ export default defineComponent({
   props: {},
   components: {
     SearchBar,
-    Knows,
+    Follow,
     Trending,
   },
   setup() {
