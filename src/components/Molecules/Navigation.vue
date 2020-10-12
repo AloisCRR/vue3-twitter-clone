@@ -9,6 +9,11 @@
       :idx="index"
     />
     <TweetButton />
+    <user-cell
+      class="mt-auto border-none text-white rounded-full py-2 mb-3 hover:bg-twitter-hover"
+    >
+      <search />
+    </user-cell>
   </div>
 </template>
 
@@ -16,6 +21,8 @@
 import { defineComponent, reactive } from "vue";
 import NavButton from "@/components/Atoms/NavButton.vue";
 import TweetButton from "@/components/Atoms/TweetButton.vue";
+import UserCell from "@/components/Atoms/UserCell.vue";
+import Search from "@/components/Icons/Search.vue";
 
 export default defineComponent({
   name: "Navigation",
@@ -23,6 +30,8 @@ export default defineComponent({
   components: {
     NavButton,
     TweetButton,
+    UserCell,
+    Search,
   },
   setup() {
     const state = reactive({
@@ -54,6 +63,7 @@ export default defineComponent({
 <style scoped lang="scss">
 #navigation {
   flex: 2;
+  min-width: 255px;
 }
 
 @media (max-width: 1280px) {

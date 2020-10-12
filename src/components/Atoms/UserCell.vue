@@ -1,7 +1,7 @@
 <template>
   <button
     type="button"
-    class="border-t border-gray-800 p-4 flex w-full text-left justify-between focus:outline-none hover:bg-twitter-light transition duration-300 ease-in-out"
+    class="border-t border-gray-800 p-4 flex items-center w-full text-left justify-between focus:outline-none transition duration-300 ease-in-out"
   >
     <div class="flex">
       <rounded-image
@@ -9,31 +9,36 @@
         :width="49"
         :height="49"
       />
-      <div class="">
+      <div>
         <span class="font-semibold ml-3 block hover:underline"
           >Alois Carrera</span
         >
         <span class="ml-3 mr-2 text-twitter-gray">@AloisCRR</span>
-        <span class="px-2 bg-twitter-light text-twitter-gray rounded-md text-sm"
+        <span
+          v-if="following"
+          class="px-2 bg-twitter-light text-twitter-gray rounded-md text-sm"
           >Te sigue</span
         >
       </div>
     </div>
-    <no-fill-button class="my-auto" :text="'Seguir'" />
+    <slot />
   </button>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent, PropType } from "vue";
 import RoundedImage from "@/components/Atoms/RoundedImage.vue";
-import NoFillButton from "@/components/Atoms/NoFillButton.vue";
 
 export default defineComponent({
   name: "UserCell",
-  props: {},
+  props: {
+    following: {
+      type: Boolean as PropType<boolean>,
+      default: false,
+    },
+  },
   components: {
     RoundedImage,
-    NoFillButton,
   },
   setup() {
     return {};
