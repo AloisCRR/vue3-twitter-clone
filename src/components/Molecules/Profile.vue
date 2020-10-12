@@ -43,6 +43,7 @@ div {
 
 #profile {
   flex: 5;
+  min-width: 600px;
 }
 
 @media (max-width: 1024px) {
