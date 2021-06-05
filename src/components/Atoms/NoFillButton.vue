@@ -8,18 +8,18 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from "vue";
+import { defineComponent, PropType } from 'vue';
 
 export default defineComponent({
-  name: "NoFillButton",
+  name: 'NoFillButton',
   props: {
     text: {
       type: String as PropType<string>,
       required: true,
-      default: "Default",
-    },
-  },
+      default: 'Default'
+    }
+  }
 });
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped></style>

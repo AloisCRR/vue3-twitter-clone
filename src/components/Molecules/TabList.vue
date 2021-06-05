@@ -12,19 +12,19 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, reactive } from "vue";
-import TabButton from "@/components/Atoms/TabButton.vue";
+import { defineComponent, reactive } from 'vue';
+import TabButton from '@/components/Atoms/TabButton.vue';
 
 export default defineComponent({
-  name: "TabList",
+  name: 'TabList',
   props: {},
   components: {
-    TabButton,
+    TabButton
   },
   setup() {
     const state = reactive({
-      sec: ["Tweets", "Tweets y respuestas", "Fotos y videos", "Me gusta"],
-      selected: 0,
+      sec: ['Tweets', 'Tweets y respuestas', 'Fotos y videos', 'Me gusta'],
+      selected: 0
     });
 
     function selected(idx: number) {
@@ -33,10 +33,10 @@ export default defineComponent({
 
     return {
       state,
-      selected,
+      selected
     };
-  },
+  }
 });
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped></style>

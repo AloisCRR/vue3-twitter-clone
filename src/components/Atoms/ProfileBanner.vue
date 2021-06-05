@@ -3,16 +3,16 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: "ProfileBanner",
+  name: 'ProfileBanner',
   props: {},
-  components: {},
+  components: {}
 });
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 .banner {
   min-height: 12rem;
 }

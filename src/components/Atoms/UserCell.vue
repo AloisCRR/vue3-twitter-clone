@@ -1,11 +1,13 @@
 <template>
   <button
     type="button"
-    class="border-t border-gray-800 p-4 flex items-center w-full text-left justify-between focus:outline-none transition duration-300 ease-in-out"
+    class="hover:bg-twitter-hover border-t border-gray-800 p-4 flex items-center w-full text-left justify-between focus:outline-none transition duration-300 ease-in-out"
   >
     <div class="flex">
       <rounded-image
-        :source="'https://pbs.twimg.com/profile_images/975748260689338368/L9oiNv4I_400x400.jpg'"
+        :source="
+          'https://pbs.twimg.com/profile_images/975748260689338368/L9oiNv4I_400x400.jpg'
+        "
         :width="49"
         :height="49"
       />
@@ -26,24 +28,24 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from "vue";
-import RoundedImage from "@/components/Atoms/RoundedImage.vue";
+import { defineComponent, PropType } from 'vue';
+import RoundedImage from '@/components/Atoms/RoundedImage.vue';
 
 export default defineComponent({
-  name: "UserCell",
+  name: 'UserCell',
   props: {
     following: {
       type: Boolean as PropType<boolean>,
-      default: false,
-    },
+      default: false
+    }
   },
   components: {
-    RoundedImage,
+    RoundedImage
   },
   setup() {
     return {};
-  },
+  }
 });
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped></style>

@@ -27,28 +27,28 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from "vue";
+import { defineComponent, PropType } from 'vue';
 
 export default defineComponent({
-  name: "Search",
+  name: 'Search',
   props: {
     iconName: {
-      type: String as PropType<string>,
+      type: String as PropType<string>
     },
     width: {
       type: [Number, String] as PropType<string | number>,
-      default: 20,
+      default: 20
     },
     height: {
       type: [Number, String] as PropType<string | number>,
-      default: 20,
+      default: 20
     },
     iconColor: {
       type: String as PropType<string>,
-      default: "currentColor",
-    },
-  },
+      default: 'currentColor'
+    }
+  }
 });
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped></style>

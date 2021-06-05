@@ -8,17 +8,21 @@
       <span class="block text-white font-semibold my-1">Spotify</span>
       <span class="block text-sm">619 mil tweets</span>
     </div>
-    <div>i</div>
+    <More w="20" h="20" />
   </button>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent } from 'vue';
+import More from 'vue-ionicons/dist/ios-more.vue';
 
 export default defineComponent({
-  name: "TrendingCell",
-  props: {},
+  name: 'TrendingCell',
+  components: {
+    More
+  },
+  props: {}
 });
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped></style>

@@ -17,25 +17,25 @@
 </template>
 
 <script lang="ts">
-import { computed, defineComponent, reactive } from "vue";
-import Search from "@/components/Icons/Search.vue";
+import { computed, defineComponent, reactive } from 'vue';
+import Search from '@/components/Icons/Search.vue';
 
 export default defineComponent({
-  name: "SearchBar",
+  name: 'SearchBar',
   props: {},
   components: {
-    Search,
+    Search
   },
   setup() {
     const state = reactive({
-      selected: false,
+      selected: false
     });
 
     const border = computed(() =>
-      state.selected ? "border-twitter-primary" : "border-transparent"
+      state.selected ? 'border-twitter-primary' : 'border-transparent'
     );
 
-    const color = computed(() => (state.selected ? "#1da1f2" : "currentColor"));
+    const color = computed(() => (state.selected ? '#1da1f2' : 'currentColor'));
 
     function toggleSelected(): void {
       state.selected = !state.selected;
@@ -45,10 +45,10 @@ export default defineComponent({
       state,
       toggleSelected,
       border,
-      color,
+      color
     };
-  },
+  }
 });
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped></style>

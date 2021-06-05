@@ -5,7 +5,11 @@
   >
     <div class="mr-3">
       <rounded-image
-        :source="'https://pbs.twimg.com/profile_images/975748260689338368/L9oiNv4I_400x400.jpg'"
+        :width="93"
+        :height="93"
+        :source="
+          'https://pbs.twimg.com/profile_images/975748260689338368/L9oiNv4I_400x400.jpg'
+        "
       />
     </div>
     <div>
@@ -18,26 +22,34 @@
         dignissimos eos temporibus.
       </p>
       <div class="flex justify-around mt-3">
-        <div>c</div>
-        <div>r</div>
-        <div>f</div>
-        <div>s</div>
+        <ChatBubble w="20" h="20" class="p-0" />
+        <Retweet w="20" h="20" class="p-0" />
+        <Like w="20" h="20" class="p-0" />
+        <Share w="20" h="20" class="p-0" />
       </div>
     </div>
   </button>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import RoundedImage from "@/components/Atoms/RoundedImage.vue";
+import { defineComponent } from 'vue';
+import RoundedImage from '@/components/Atoms/RoundedImage.vue';
+import ChatBubble from 'vue-ionicons/dist/md-chatbubbles.vue';
+import Retweet from 'vue-ionicons/dist/md-repeat.vue';
+import Like from 'vue-ionicons/dist/md-heart-empty.vue';
+import Share from 'vue-ionicons/dist/md-share.vue';
 
 export default defineComponent({
-  name: "Tweet",
+  name: 'Tweet',
   props: {},
   components: {
     RoundedImage,
-  },
+    ChatBubble,
+    Retweet,
+    Like,
+    Share
+  }
 });
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped></style>

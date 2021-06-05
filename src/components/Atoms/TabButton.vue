@@ -11,24 +11,24 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from "vue";
+import { defineComponent, PropType } from 'vue';
 
 export default defineComponent({
-  name: "TabButton",
+  name: 'TabButton',
   props: {
     text: {
       type: String as PropType<string>,
-      required: true,
+      required: true
     },
     idx: {
       type: Number as PropType<number>,
-      required: true,
+      required: true
     },
     active: {
-      type: Number as PropType<number>,
-    },
-  },
+      type: Number as PropType<number>
+    }
+  }
 });
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped></style>

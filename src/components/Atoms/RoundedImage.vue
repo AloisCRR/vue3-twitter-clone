@@ -9,25 +9,25 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from "vue";
+import { defineComponent, PropType } from 'vue';
 
 export default defineComponent({
-  name: "RoundedImage",
+  name: 'RoundedImage',
   props: {
     width: {
       type: Number as PropType<number>,
-      default: 120,
+      default: 120
     },
     height: {
       type: Number as PropType<number>,
-      default: 120,
+      default: 120
     },
     source: {
       type: String as PropType<string>,
-      required: true,
-    },
-  },
+      required: true
+    }
+  }
 });
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped></style>

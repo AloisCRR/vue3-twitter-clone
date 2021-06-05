@@ -1,62 +1,30 @@
 {
-  "name": "vue3-ts-twitter-clone",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue3-twitter-clone",
+  "version": "0.0.0",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "update": "pnpx npm-check-updates -u && pnpm i"
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
   },
   "dependencies": {
-    "@vue/cli": "^4.5.7",
-    "core-js": "^3.6.5",
-    "tinycolor2": "^1.4.2",
-    "vue": "^3.0.0-0",
-    "vue-router": "^4.0.0-0",
-    "vuex": "^4.0.0-0"
+    "vue": "^3.0.5",
+    "vue-ionicons": "^3.0.5"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.4.0",
-    "@typescript-eslint/parser": "^4.4.0",
-    "@vue/cli-plugin-babel": "~4.5.7",
-    "@vue/cli-plugin-eslint": "~4.5.7",
-    "@vue/cli-plugin-router": "~4.5.7",
-    "@vue/cli-plugin-typescript": "~4.5.7",
-    "@vue/cli-plugin-vuex": "~4.5.7",
-    "@vue/cli-service": "~4.5.7",
-    "@vue/compiler-sfc": "^3.0.0",
-    "@vue/eslint-config-prettier": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "@vitejs/plugin-vue": "^1.2.2",
+    "@vue/compiler-sfc": "^3.0.11",
+    "@vue/eslint-config-standard": "^6.0.0",
     "@vue/eslint-config-typescript": "^7.0.0",
-    "eslint": "^7.10.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-vue": "^7.0.1",
-    "prettier": "^2.1.2",
-    "sass": "^1.27.0",
-    "sass-loader": "^10.0.3",
-    "typescript": "~4.0.3",
-    "vue-cli-plugin-tailwind": "~1.5.0"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended",
-      "@vue/typescript/recommended",
-      "@vue/prettier",
-      "@vue/prettier/@typescript-eslint"
-    ],
-    "parserOptions": {
-      "ecmaVersion": 2020
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "autoprefixer": "^10.2.6",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^7.10.0",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.2",
+    "typescript": "^4.3.2",
+    "vite": "^2.3.4",
+    "vue-tsc": "^0.1.6"
+  }
 }

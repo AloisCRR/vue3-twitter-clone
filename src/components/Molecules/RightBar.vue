@@ -1,5 +1,5 @@
 <template>
-  <div id="rightbar" class="sx:hidden lg:flex flex flex-col">
+  <div class="sx:hidden flex flex-col flex-right-bar">
     <search-bar />
     <cell-container :text="'Tal vez te guste'">
       <user-cell :following="true" class="hover:bg-twitter-light">
@@ -13,32 +13,27 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import SearchBar from "@/components/Atoms/SearchBar.vue";
-import CellContainer from "@/components/Molecules/CellContainer.vue";
-import UserCell from "@/components/Atoms/UserCell.vue";
-import TrendingCell from "@/components/Atoms/TrendingCell.vue";
-import NoFillButton from "@/components/Atoms/NoFillButton.vue";
+import { defineComponent } from 'vue';
+import SearchBar from '@/components/Atoms/SearchBar.vue';
+import CellContainer from '@/components/Molecules/CellContainer.vue';
+import UserCell from '@/components/Atoms/UserCell.vue';
+import TrendingCell from '@/components/Atoms/TrendingCell.vue';
+import NoFillButton from '@/components/Atoms/NoFillButton.vue';
 
 export default defineComponent({
-  name: "RightBar",
+  name: 'RightBar',
   props: {},
   components: {
     SearchBar,
     CellContainer,
     UserCell,
     NoFillButton,
-    TrendingCell,
+    TrendingCell
   },
   setup() {
     return {};
-  },
+  }
 });
 </script>
 
-<style scoped lang="scss">
-#rightbar {
-  flex: 3;
-  min-width: 350px;
-}
-</style>
+<style scoped></style>
